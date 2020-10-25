@@ -1,7 +1,7 @@
 {
   "name": "codeial",
   "version": "1.0.0",
-  "description": "social network web application",
+  "description": "My all social media web application",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -10,12 +10,17 @@
   "keywords": [
     "social"
   ],
-  "author": "mateshwari",
+  "author": "mateshwari verma",
   "license": "ISC",
   "dependencies": {
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.5",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "mongoose": "^5.10.0"
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.10",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   }
 }
