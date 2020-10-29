@@ -5,11 +5,11 @@ config-> mongoose.js-> your db urls
 # prerequest -
 npm install ( all required in package.json)
 # run 
-npm start 
-# API ROOT
-http://localhost:8000/
-http://localhost:8000/users/sign-up
-http://localhost:8000/users/sign-in
+npm start
+# API Root
+http://localhost:8000;
+http://localhost:8000/users/sign-up;
+http://localhost:8000/users/sign-in;
 
 # internal root 
 router.get('/', homeController.home);
