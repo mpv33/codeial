@@ -19,7 +19,6 @@ passport.use(new LocalStrategy({
 
             if (!user || user.password != password){
                 console.log('Invalid Username/Password');
-               //alert('please enter correct email and passward')
                 return done(null, false);
             }
 
