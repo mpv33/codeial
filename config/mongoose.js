@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 //mongoose.connect('mongodb://localhost/codeial_development');
-mongoose.connect('mongodb+srv://mpv33:uV7Pe6CLrRFw4Eb2@cluster0.8jpev.mongodb.net/codeial_db?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://username:<password>@cluster0.8jpev.mongodb.net/<dbname>?retryWrites=true&w=majority');
+
 
 const db = mongoose.connection;
 
